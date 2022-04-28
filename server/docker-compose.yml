@@ -1,0 +1,20 @@
+version: "3.7"
+services:
+  mongo:
+    image: mongo
+    restart: unless-stopped
+    ports:
+      - 27017:27017
+    volumes:
+      - ~/mongodb/database:/data/db
+  redis:
+    image: redis:7.0.0-alpine
+    restart: unless-stopped
+    ports:
+      - 6379:6379
+    volumes:
+      - cache:/data
+
+volumes:
+  cache:
+    driver: local

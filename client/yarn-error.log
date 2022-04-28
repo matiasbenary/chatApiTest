@@ -1,0 +1,66 @@
+Arguments: 
+  /home/matias/.nvm/versions/node/v16.14.2/bin/node /home/matias/.nvm/versions/node/v16.14.2/bin/yarn install
+
+PATH: 
+  /home/matias/.nvm/versions/node/v16.14.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/home/matias/.cache/yarn/v6/npm-globals-13.13.0-ac32261060d8070e2719dd6998406e27d2b5727b-integrity/node_modules/globals/globals.json' -> '/home/matias/proyectos/chat/Chatroom-with-Nodejs-React/client/node_modules/@eslint/eslintrc/node_modules/globals/globals.json'
+
+npm manifest: 
+  {
+    "name": "client",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.11.6",
+      "@testing-library/react": "^11.2.2",
+      "@testing-library/user-event": "^12.3.0",
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "react-router-dom": "^5.2.0",
+      "react-scripts": "4.0.1",
+      "react-scroll-to-bottom": "^4.0.0",
+      "socket.io-client": "^2.3.1",
+      "web-vitals": "^0.2.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

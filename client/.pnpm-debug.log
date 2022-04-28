@@ -1,0 +1,23 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "not found: istall",
+      "code": "ENOENT",
+      "stack": "Error: not found: istall\n    at getNotFoundError (/home/matias/.nvm/versions/node/v16.14.2/lib/node_modules/pnpm/dist/pnpm.cjs:41689:51)\n    at Function.whichSync [as sync] (/home/matias/.nvm/versions/node/v16.14.2/lib/node_modules/pnpm/dist/pnpm.cjs:41766:13)\n    at getCommandAbsolutePathSync (/home/matias/.nvm/versions/node/v16.14.2/lib/node_modules/pnpm/dist/pnpm.cjs:43331:44)\n    at default_1 (/home/matias/.nvm/versions/node/v16.14.2/lib/node_modules/pnpm/dist/pnpm.cjs:43340:32)\n    at /home/matias/.nvm/versions/node/v16.14.2/lib/node_modules/pnpm/dist/pnpm.cjs:178616:39"
+    }
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+    "prefix": "/home/matias/proyectos/chat/Chatroom-with-Nodejs-React/client",
+    "err": {
+      "name": "pnpm",
+      "message": "not found: istall",
+      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+      "stack": "Error: not found: istall\n    at getNotFoundError (/home/matias/.nvm/versions/node/v16.14.2/lib/node_modules/pnpm/dist/pnpm.cjs:41689:51)\n    at Function.whichSync [as sync] (/home/matias/.nvm/versions/node/v16.14.2/lib/node_modules/pnpm/dist/pnpm.cjs:41766:13)\n    at getCommandAbsolutePathSync (/home/matias/.nvm/versions/node/v16.14.2/lib/node_modules/pnpm/dist/pnpm.cjs:43331:44)\n    at default_1 (/home/matias/.nvm/versions/node/v16.14.2/lib/node_modules/pnpm/dist/pnpm.cjs:43340:32)\n    at /home/matias/.nvm/versions/node/v16.14.2/lib/node_modules/pnpm/dist/pnpm.cjs:178616:39"
+    }
+  }
+}
